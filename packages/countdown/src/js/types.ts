@@ -1,6 +1,6 @@
 interface Options {
-  interval: number
   targetDate: Date
+  format: 'date' | 'timer'
 }
 export type Countdown = (
   element: HTMLElement,

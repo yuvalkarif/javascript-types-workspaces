@@ -8,13 +8,11 @@ importers:
 
   .: {}
 
-  packages/lib: {}
-
-  packages/runner:
+  packages/app:
     dependencies:
-      lib:
+      countdown:
         specifier: workspace:^
-        version: link:../lib
+        version: link:../countdown
     devDependencies:
       typescript:
         specifier: ^5.2.2
@@ -22,6 +20,12 @@ importers:
       vite:
         specifier: ^5.2.0
         version: 5.2.10
+
+  packages/countdown:
+    devDependencies:
+      typescript:
+        specifier: ^5.2.2
+        version: 5.4.5
 
 packages:
 

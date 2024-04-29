@@ -1,0 +1,28 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "exports": {
+    "./ts": {
+      "require": "./dist/countdown.js",
+      "import": "./dist/countdown.js",
+      "types": "./dist/countdown.d.ts"
+    },
+    "./js": {
+      "require": "./src/js/countdown.js",
+      "import": "./src/js/countdown.js"
+    },
+    "./js-types": {
+      "require": "./src/js/countdown.js",
+      "import": "./src/js/countdown.js",
+      "types": "./src/js/countdown.d.ts"
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

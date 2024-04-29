@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm --filter \"runner\" dev "
+    "dev": "pnpm --filter \"app\" dev "
   },
   "keywords": [],
   "author": "",

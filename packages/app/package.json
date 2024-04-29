@@ -1,5 +1,5 @@
 {
-  "name": "runner",
+  "name": "app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,6 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
-    "lib": "workspace:^"
+    "countdown": "workspace:^"
   }
 }
